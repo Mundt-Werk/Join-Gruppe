@@ -7,3 +7,9 @@ Im Github Projekt auf Settings -> Collaborators -> Add people
 Mit der up.bat Datei arbeiten -> .\up.bat ... <- ... durch einen Kommentar ersetzen 
 
 +++ 3 +++ 
+
+Trello nutzen ? 
+
++++ 4 +++
+
+Aufgaben aufteilen -> Erst HTML und CSS ? 
