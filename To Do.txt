@@ -4,3 +4,6 @@ Im Github Projekt auf Settings -> Collaborators -> Add people
 
 +++ 2 +++
 
+Mit der up.bat Datei arbeiten -> .\up.bat ... <- ... durch einen Kommentar ersetzen 
+
++++ 3 +++ 
