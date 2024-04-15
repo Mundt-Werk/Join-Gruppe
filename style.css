@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7F8;
+}
+
+.main-page {
+    width: 1440px;
+    background-color: #F6F7F8;
+    display: flex;
+}
+
+.row1 {
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row1 img {
+    height: 121.97px;
+    width: 100.03px;
+    margin-top: 80px;
+    margin-left: 77px;
+}
+
+.row2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in-box {
+    background-color: white;
+    padding: 48px 115px 48px 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 30px;
+}
+
+.log-in-box-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+h2 {
+    font-size: 61px;
+    line-height: 73.2px;
+}
+
+.log-in-box hr {
+    height: 3px;
+    background-color: #29ABE2;
+    border-radius: 3px;
+    border: none;
+    width: 80%;
+}
+
+.log-in-box-input {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.log-in-box-input input {
+    padding: 12px 21px 12px 21px;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    width: 422px;
+}
+
+.row3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+}
+
+.row3-info {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.row3 button {
+    background-color: #2A3647;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+}

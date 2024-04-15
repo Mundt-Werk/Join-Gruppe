@@ -13,3 +13,7 @@ Trello nutzen ?
 +++ 4 +++
 
 Aufgaben aufteilen -> Erst HTML und CSS ? 
+
++++ 5 +++
+
+Klassen, Ids, Funktionen Schreibweise - _ CamelCase ?
