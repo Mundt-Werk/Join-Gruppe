@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input zu JASON Array + Form Validation</title>
+
+    <script>
+        let recipes = [];
+
+        function addToRecipes(){
+            let title = document.getElementById('title');
+            let description = document.getElementById('description');
+
+            let recipy = {
+                "title": title.value,
+                "desciption": description.value,
+            };
+
+            recipes.push(recipy);
+            console.log(recipes);
+
+            title.value = '';
+            description.value = '';
+        }
+
+    </script>
+
+</head>
+<body>
+    <h1>Dein Kochbuch</h1>
+
+    <div>
+        <form onsubmit="addToRecipes()" style="display: flex; flex-direction: column; justify-content: flex-start; width: 400px;">
+            <input required minlength="5" type="text" placeholder="Titel" id="title">
+            <textarea required placeholder="Bitte beschreibe dein Rezept" id="description"></textarea>
+
+            <button>Hinzufügen</button>
+        </form>
+    </div>
+</body>
+</html>
